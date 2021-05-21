@@ -17,7 +17,7 @@ function pagination() {
 
         $("#pagination").css("display", "flex");
 
-    }, 1500);
+    }, 3000);
 
 }
 
