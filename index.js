@@ -124,6 +124,8 @@ function traerInfo(page) {
         $("#container").empty();
 
         $('#pagination').css("display", "none")
+        
+        pagination()
 
 
         direccion="https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=5e976ef6430f49e08d17ea33c7605f41"
