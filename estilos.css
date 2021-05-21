@@ -1,0 +1,186 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+    position: sticky;
+}
+
+#container2{
+
+    font-size: large;
+    width: 450px;
+    padding:40px;
+    font-size: large;
+ 
+}
+
+#container2 a{
+    color: black;
+}
+
+
+
+img {
+    width: 220px;
+    height: 140px;
+}
+
+.noticia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(175, 175, 175, 0.342);
+    border-radius: 5px;
+    margin: 20px;
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: sticky;
+
+}
+
+.noticia2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    margin: 20px;
+    width: 650px;
+    padding:40px;
+    font-size: large;
+    margin: auto;
+  
+
+}
+
+#cinf{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.noticia2 img{
+
+   margin-top: -10px;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+}
+
+.noticia2 a{
+    color: black;
+}
+
+.panel {
+    background-color: rgba(175, 175, 175, 0.342);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia a{
+
+    color: black;
+}
+
+
+.boton {
+
+    size: large;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+#boton {
+
+    size: large;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+    
+}
+
+#pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    
+}
+
+.active {
+    background-color: rgb(91, 103, 114);
+    color: white;
+}
+
+#pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.info {
+
+    background-color: rgba(175, 175, 175, 0.342);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 150px;
+    margin: auto;
+
+}
+
+
+
+
+
+#spinner {
+    display: none
+}
+
+#titulo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#boton2{
+    size: large;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
