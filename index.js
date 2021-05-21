@@ -128,7 +128,7 @@ function traerInfo(page) {
         pagination()
 
 
-        direccion="https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=5e976ef6430f49e08d17ea33c7605f41"
+        direccion="https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=067bdec191fb4b0cbe14fa478bde44d1"
     
         $.ajax({
             url: direccion,
@@ -147,7 +147,7 @@ function traerInfo(page) {
         
             });
      
-    loadDoc("https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=5e976ef6430f49e08d17ea33c7605f41")
+    loadDoc("https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=067bdec191fb4b0cbe14fa478bde44d1")
 
   
     }
