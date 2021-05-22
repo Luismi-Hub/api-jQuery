@@ -128,7 +128,7 @@ function traerInfo(page) {
         pagination()
 
 
-        direccion="https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=067bdec191fb4b0cbe14fa478bde44d1"
+        direccion="Access-Control-Allow-Origin:https://newsapi.org/v2/everything?q=" + noticia + "&pageSize=12&page=" + page + "&apiKey=067bdec191fb4b0cbe14fa478bde44d1"
     
         $.ajax({
             url: direccion,
